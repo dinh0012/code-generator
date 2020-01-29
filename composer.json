@@ -1,7 +1,6 @@
 {
   "name": "dinh0012/code-generator",
   "description": "Code Generator",
-  "license": "",
   "autoload": {
     "psr-4": {
       "Dinh0012\\CodeGenerator\\": "src/"
