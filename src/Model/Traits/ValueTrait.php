@@ -67,7 +67,9 @@ trait ValueTrait
                 foreach ($value as $item) {
                     $parts[] = $this->renderTyped($item);
                 }
-                $value = '[' . implode(', ', $parts) . ']';
+                $value = '[' . "\n\t\t\t";
+                $value .= implode(",\n\t\t", $parts);
+                $value .= ",\n\t" . ']';
 
                 break;
             default:
